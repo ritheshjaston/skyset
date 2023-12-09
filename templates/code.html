@@ -60,7 +60,7 @@ font-size: xx-large;"><b>SkyCast</b> Your Weather Companion</h2>
 
         function getdata() {
             let loc = document.getElementById('loc').value;
-            var apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + loc + "&appid=62913ae94cd381c9d0cba2064ca224f1";  // Replace YOUR_API_KEY with your actual API key
+            var apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + loc + "&appid=YOURAPIKEY";  // Replace YOUR_API_KEY with your actual API key
 
             fetch(apiUrl)
                 .then(response => response.json())
